@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product page</title>
+    <link rel="stylesheet" href="maincss.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="categorypage.html">Seasons</a>
+      </nav>
+    </header>
+    <main>
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="categorypage.html">Seasons</a></li>
+        <li class="season"><a href="productlistpage.html">Spring</a></li>
+        <li class="productname">Deck Navy Blue Backpack</li>
+      </ul>
+      <div class="buying">
+        <img
+          class="productimage"
+          src="https://kea-alt-del.dk/t7/images/webp/1000/1525.webp"
+          alt="Deck Navy Blue Backpack"
+        />
+        <section>
+          <h3 class="productname">Deck Navy Blue Backpack</h3>
+          <p class="brand">Puma</p>
+          <form>
+            <label
+              >Choose a size
+              <select name="size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+              </select>
+            </label>
+            <button>Add to basket</button>
+          </form>
+        </section>
+      </div>
+      <section class="description">
+        <h2>Product Information</h2>
+        <dl>
+          <dt>Name</dt>
+          <dd class="productname">Deck Navy Blue Backpack</dd>
+          <dt>Color</dt>
+          <dd class="color">Navy Blue</dd>
+          <dt>Number</dt>
+          <dd class="number">1236</dd>
+        </dl>
+      </section>
+    </main>
+    <script src="product.js"></script>
+  </body>
+</html>

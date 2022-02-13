@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product list page</title>
+    <link rel="stylesheet" href="maincss.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bodylist">
+    <header>
+      <nav>
+        <a href="categorypage.html">Seasons</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Spring</h2>
+      <template id="oneproducttemplate">
+      <div class="grid">
+        <article class="listproduct onsale">
+          <img class="productimage"
+            src="https://kea-alt-del.dk/t7/images/webp/640/1525.webp"
+            alt="Deck Navy Blue Backpack"
+          />
+          <h3>Deck Navy Blue Backpack</h3>
+          <p class="subtle">Backpacks | Puma</p>
+          <p class="dprice">1299kr</p>
+          <div class="discount">
+            <p class="percentage">-55%</p>
+            <p class="newprice">584, 55kr</p>
+          </div>
+          <a class="productlink" href="productpage.html">More</a>
+        </article>
+      </template>
+      <!---
+        <article class="listproduct">
+          <img
+            src="https://kea-alt-del.dk/t7/images/webp/640/1526.webp"
+            alt="Big Cat Backpack Black"
+          />
+          <h3>Big Cat Backpack Black</h3>
+          <p class="brand">Puma</p>
+          <p class="price">1299kr</p>
+          <a href="productpage.html">More</a>
+        </article>
+        <article class="listproduct onsale">
+          <img
+            src="https://kea-alt-del.dk/t7/images/webp/640/1528.webp"
+            alt="Black Fleece Jacket"
+          />
+          <h3>Black Fleece Jacket</h3>
+          <p class="brand">Puma</p>
+          <p class="dprice">3999kr</p>
+          <div class="discount">
+            <p class="percentage">-49% cheaper</p>
+            <p class="newprice">2039, 49kr</p>
+          </div>
+          <a href="productpage.html">More</a>
+        </article>
+        <article class="listproduct">
+          <img
+            src="https://kea-alt-del.dk/t7/images/webp/640/1529.webp"
+            alt="Tee"
+          />
+          <h3>Tee</h3>
+          <p class="brand">Puma</p>
+          <p class="price">1899kr</p>
+          <a href="productpage.html">More</a>
+        </article>
+        <article class="listproduct onsale soldout">
+          <img
+            src="https://kea-alt-del.dk/t7/images/webp/640/1530.webp"
+            alt="Track Jacket"
+          />
+          <h3>Track Jacket</h3>
+          <p class="brand">Puma</p>
+          <p class="dprice">4299kr</p>
+          <div class="discount">
+            <p class="percentage">-57% cheaper</p>
+            <p class="newprice">1848, 57kr</p>
+          </div>
+          <a href="productpage.html">More</a>
+        </article>
+        -->
+      </div>
+    </main>
+    <script src="productlist.js"></script>
+  </body>
+</html>
